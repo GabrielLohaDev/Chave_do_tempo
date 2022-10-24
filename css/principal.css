@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: space-around;
+
+    background-image: linear-gradient(1deg, black, rgb(216, 108, 0), #fffa71);
+    font-family: prompt;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+ul li a.list-cabecalho{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+ul li a.list-cabecalho:hover{
+    color: brown;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 23px;
+    text-align: left;
+}
+
+/*-- APRESENTAÇÃO --*/
+
+#apresentacao{
+    width: 100vw;
+    height: 100vh;
+
+    font-family: prompt;
+    color: rgb(23, 23, 23);
+    background-color: rgb(236, 236, 236);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+}
+
+#apresentacao h1{
+    font-size: 36px;
+}
+
+/*-- NOVIDADES --*/
+
+#novidades{
+
+    width: 100vw;
+    height: 100vh;
+    font-family: prompt;
+    color: rgb(23, 23, 23);
+    background-color: rgb(255, 244, 244);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    justify-content: space-around;
+}
+
+.txt-novidade h1{
+    margin-bottom: 10px;
+}
+.txt-novidade p{
+    font-weight: bolder;
+}
+
+.novidade{
+    display: flex;
+    justify-content: space-around;
+    font-size: 23px;
+    text-align: left;
+}
+
+.novidade input{
+    text-decoration: none;
+    background-color: rgb(72, 72, 237);
+    color: white;
+
+    padding: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.355);
+
+    font-family: prompt;
+    font-size: 20px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.novidade input:hover{
+    font-size: 21px;
+}
+
+/*-- CONTATO --*/
+#contato{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+    background-color: rgb(236, 236, 236);
+    color: rgb(23, 23, 23);
+    font-family: prompt;
+    font-size: 1.5vw;
+}
+
+#contato i{
+    color: white;
+    background-color: rgb(41, 41, 136);
+    padding: 10px;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+#contato i:hover{
+    font-size: 2vw;
+}
+
+
+
+#copy{
+    font-size: 0.8vw;
+}
+
+/*-- SUGESTAO --*/
+
+#sugestao{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: prompt;
+    background: white;
+}
+
+#sugestao textarea{
+    font-family: prompt;
+    font-size: 20px;
+    color: rgb(23, 23, 23);
+    letter-spacing: 3px;
+    outline: none;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    font-weight: bolder;
+    resize: none;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#enviar-sugestao{
+    margin-top: 15px;
+    padding: 15px;
+    color: white;
+    font-family: prompt;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(72, 72, 237);
+    font-size: 20px;
+}
